@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class suma {
+public class f01suma {
     public static void main(String[] args) {
         boolean retry;
         do {
-            suma.userSuma();
+            f01suma.userSuma();
             retry = aFunction.toTryAgain();
         } while (retry);
         System.out.println("FIN DEL PROGRAMA");

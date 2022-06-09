@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class aFunction {
-    //bucle para preguntar si desea reintentar
+    //function S / N
     public static boolean toTryAgain() {
-        System.out.println("Desea volver a intentarlo");
+        System.out.println("\nDesea volver a intentarlo?");
         System.out.println("S / N");
         Scanner value = new Scanner(System.in);
         String response = value.next();
