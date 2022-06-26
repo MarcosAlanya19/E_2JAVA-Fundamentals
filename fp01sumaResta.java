@@ -10,7 +10,7 @@ public class fp01sumaResta {
         System.out.println("Escribe segundo valor");
         int n2= prop1.nextInt();
 
-        int s=n1+n2;
+        int s=n1/=n2;
         int r=n1-n2;
 
         System.out.println("El resultado de la suma es "+s);
